@@ -25,7 +25,7 @@ class Items: Identifiable {
 struct ContentView: View {
     @State var tempItemName: String = ""
     @State var tempQuantity: String = ""
-    
+    z
     @State var list = [
         Items(itemName: "Bananas", quantity: "3"),
         Items(itemName: "Apples", quantity: "4"),
